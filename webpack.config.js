@@ -36,10 +36,7 @@ module.exports = {
         // },        
         
         // For hosts (please adjust)
-        remotes: {
-            "geoJsonMap": "http://localhost:5000/remoteEntry.js",
-        },
-
+ 
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/common": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
